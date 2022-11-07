@@ -1,0 +1,14 @@
+section{
+    display: flex;
+}
+section > article{
+    flex: 1;
+}
+section > nac {
+    flex: 1;
+}
+@media (max-width: 600px){
+    section{
+        flex-direction: column;
+    }
+}
